@@ -1,0 +1,26 @@
+:root {
+    --eggshell: #F2F2F2;
+    --ekho_blue: #018CCF;
+    --ekho_orange: #FDB414;
+    --ekho_gray: #4C4D4F;
+}
+
+/* Large */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Medium */
+@media only screen and (max-width: 992px) {
+    
+}
+
+/* Small */
+@media only screen and (max-width: 768px) {
+    
+}
+
+/* Extra Small */
+@media only screen and (max-width: 576px) {
+
+}
