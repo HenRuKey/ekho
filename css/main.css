@@ -25,8 +25,26 @@ html, body {
     margin: 20px;
 }
 
+.shop-button {
+    background-color: var(--ekho_blue);
+    color: var(--eggshell);
+    border-radius: 12px;
+    border: none;
+    padding: 5px;
+    width: 120%;
+}
+
+.shop-button:hover {
+    background-color: var(--ekho_orange);
+    cursor: pointer;
+}
+
 h1,h2,h3,h4,h5,h6 {
     text-align: center;
+}
+
+h1 {
+    font-size: 3em;
 }
 
 h2 {
@@ -64,9 +82,17 @@ p {
     html, body {
         font-size: 1rem;
     }
+
+    .shop-button {
+        width: auto;
+        padding: 12px;
+    }
+
 }
 
 /* Extra Small */
 @media only screen and (max-width: 576px) {
-
+    h1 {
+        font-size: 2em;
+    }
 }
