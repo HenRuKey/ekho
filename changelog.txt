@@ -27,3 +27,8 @@ vertically aligned content in main-block div
 added an image to main-block div
 added text to main-block div
 added a button linking to the store to main-block div
+
+commit 6
+--------
+fixed mobile responsiveness for smaller screens
+removed main-block image from landscape mobile viewports
