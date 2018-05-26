@@ -16,3 +16,14 @@ Added a template for a video background for a future landing page
 Create a script that ensures the main page will take up 100% of the screen
 Added a div with an image background
 Removed margin from the navigation bar
+
+commit 4
+--------
+Appended forgotten change to changelog
+
+commit 5
+--------
+vertically aligned content in main-block div
+added an image to main-block div
+added text to main-block div
+added a button linking to the store to main-block div

@@ -61,6 +61,10 @@ p {
     html, body {
         font-size: 1.2rem;
     }
+
+    #logo {
+        width: 50%;
+    }
 }
 
 /* Large */
