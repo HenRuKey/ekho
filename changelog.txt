@@ -1,0 +1,17 @@
+commit 1
+--------
+Added web pages to repository
+
+commit 2
+--------
+Added a shop button to the navigation bar
+Fixed h1 font size for mobile devices
+
+commit 3
+--------
+Fixed logo size for landscape on mobile devices
+Added changelog to the repository
+Added a template for a video background for a future landing page
+Create a script that ensures the main page will take up 100% of the screen
+Added a div with an image background
+Removed margin from the navigation bar
