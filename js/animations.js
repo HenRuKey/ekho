@@ -11,18 +11,13 @@
             origin: 'top'
         });
 
-        // Product image
-        sr.reveal('.product-image', {
+        // Product 
+        sr.reveal('.product', {
             duration: 1000,
             origin: 'bottom'
         });
 
-        // Product description
-        sr.reveal('.product-description', {
-            duraiton: 1000,
-            origin: 'bottom'
-        });
-
+        // In-between divs
         sr.reveal('.in-between-content', {
             duration: 1000,
             origin: 'bottom'

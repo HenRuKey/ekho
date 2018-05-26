@@ -39,3 +39,7 @@ Added animations to the main-block content
 Added in-between sections to page
 Added new sections with background images
 Made page parallax
+
+commit 8
+--------
+Fixed a bug causing the product description to hide until scroll
