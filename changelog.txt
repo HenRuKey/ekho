@@ -6,6 +6,7 @@ commit 2
 --------
 Added a shop button to the navigation bar
 Fixed h1 font size for mobile devices
+Fixed the title on the tab to match the project
 
 commit 3
 --------
