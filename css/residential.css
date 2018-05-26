@@ -119,11 +119,22 @@
         padding: 40px 0;
     }
 
+    .main-block {
+        background-attachment: scroll;
+    }
+
+    .pricing {
+        background-attachment: scroll;
+    }
+
+    .adventure-block {
+        background-attachment: scroll;
+    }
+
 }
 
 /* Extra Small */
 @media only screen and (max-width: 576px) {
-
 
 }
 

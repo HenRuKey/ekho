@@ -43,3 +43,7 @@ Made page parallax
 commit 8
 --------
 Fixed a bug causing the product description to hide until scroll
+
+commit 9
+--------
+Potential fix for mobile background image bug
