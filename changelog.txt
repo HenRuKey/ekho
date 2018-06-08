@@ -47,3 +47,9 @@ Fixed a bug causing the product description to hide until scroll
 commit 9
 --------
 Potential fix for mobile background image bug
+
+commit 10
+---------
+Added logo to landing page
+Changed video.css to landing.css and removed its stylesheet reference in landing.html
+Added buttons linking to landing pages
