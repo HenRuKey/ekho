@@ -63,3 +63,10 @@ commit 12
 ---------
 Changed the tagline on index.html
 Changed url of shop button on index.html
+
+commit 13
+---------
+Updated landing page mission statement and tagline
+Changed landing page button to "Learn More"
+Added section below to link to residential and commercial pages
+Changed tagline on residential page
