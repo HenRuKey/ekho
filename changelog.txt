@@ -58,3 +58,8 @@ commit 11
 ---------
 Applied z-index to buttons on landing page
 Changed cursor and color of landing page buttons on hover
+
+commit 12
+---------
+Changed the tagline on index.html
+Changed url of shop button on index.html
