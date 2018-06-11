@@ -70,3 +70,10 @@ Updated landing page mission statement and tagline
 Changed landing page button to "Learn More"
 Added section below to link to residential and commercial pages
 Changed tagline on residential page
+
+commit 14
+---------
+Changed background position of services to scroll for mobile
+Added store button to landing page
+Removed clutter on landing page
+Updated mobile layout on landing page to fit multiple buttons
