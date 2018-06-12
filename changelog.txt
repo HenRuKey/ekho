@@ -81,3 +81,7 @@ Updated mobile layout on landing page to fit multiple buttons
 commit 15
 ---------
 Fixed mobile resizing issues for landing page buttons
+
+commit 16
+---------
+Added link to residential page
