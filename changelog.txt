@@ -85,3 +85,13 @@ Fixed mobile resizing issues for landing page buttons
 commit 16
 ---------
 Added link to residential page
+
+commit 17
+---------
+Removed Learn More button on landing page
+Added down arrow to landing page
+Created JavaScript file for future landing page functionality
+Added descriptions for each service (commercial and enterprise)
+Added icons to descriptions for each service
+Linked services to respective pages (some pages not complete)
+Added enterprise.html 

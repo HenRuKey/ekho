@@ -5,6 +5,21 @@
     --ekho_gray: rgb(56, 56, 58);
 }
 
+.arrow-down {
+    max-width: 95px;
+}
+
+.arrow-down:hover {
+    cursor: pointer;
+}
+
+.arrow-wrapper {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    bottom: 2vh;
+}
+
 .button {
     position: relative;
     border: solid var(--ekho_gray);
@@ -48,7 +63,15 @@
     z-index: 1;
     opacity: 0.35;
 }
+/*
+.left .service-item {
+    left: -5000px;
+}
 
+.right .service-item {
+    right: -5000px;
+}
+*/
 .links {
     display: inline-block;
     margin: 0 auto;
@@ -69,12 +92,54 @@
 
 .service {
     position: relative;
-    border-radius: 12px;
-    background-color: rgba(0,0,0,0.6);
-    color: #f2f2f2;
     width: 100%;
-    height: 80vh;
     margin-top: 10vh;
+}
+
+.service-item, .service-link, .service-title {
+    background-color: #f2f2f2;
+}
+
+.service-item {
+    height: 16vh;
+    width: 100%;
+    position: relative;
+    padding: 25px;
+}
+
+.service-item h4 {
+    float: right;
+    padding: 5%;
+    margin-right: 10%;
+    font-size: 2.5em;
+}
+
+.service-item img {
+    width: 25%;
+    margin-left: 12%;
+}
+
+.service-link {
+    padding: 8%;
+    text-align: center;
+}
+
+.service-link a {
+    text-decoration: none;
+    color: var(--ekho_blue);
+    font-size: 2rem;
+}
+
+.service-title {
+    width: 100%;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.service-title h3 {
+    margin: 0;
+    padding: 25px;
+    font-size: 2em;
 }
 
 .services {
@@ -122,6 +187,10 @@
 /* Small */
 @media only screen and (max-width: 768px) {
 
+    .arrow-down {
+        max-width: 75px;
+    }
+
     .button {
         margin: 25px auto;
         float: left;
@@ -144,6 +213,18 @@
     .service {
         margin: 10vh auto;
     }
+
+    .service h4 {
+        font-size: 2em;
+    }
+    
+    .service-item img {
+        margin-left: 5%;
+    }
+    
+    .service-item h4 {
+        margin-right: 2.5%;
+    }
 }
 
 /* Extra Small */
@@ -153,10 +234,11 @@
 
 /* Mobile Landscape */
 @media only screen and (max-width: 768px) and (max-height: 500px) {
-    .button {
-        margin: 20px;
-    }
     
+    .button {
+        margin-bottom: 20%;
+    }
+
     .logo img {
         width: 50%;
     }
@@ -166,7 +248,35 @@
         padding: 0;
     }
 
+    .service-item, .service-link, .service-title {
+        width: 60%;
+        margin: 0 auto;
+    }
+
     .services {
         background-attachment: scroll;
+        height: 400vh;
+    }
+
+    .service h4 {
+        font-size: 2em;
+    }
+    
+    .service-item {
+        height: 30vh;
+        margin: 0 auto;
+    }
+
+    .service-item img {
+        margin-left: 5%;
+        height: 15vh;
+    }
+    
+    .service-item h4 {
+        margin-right: 2.5%;
+    }
+
+    .service-title {
+        width: 60%;
     }
 }
