@@ -17,6 +17,12 @@
         var viewportHeight = $(window).height();
         var mainBlockHeight = viewportHeight - navHeight - (navPadding * 2);
         $(".main-block").css('height', mainBlockHeight);
+        if (mainBlockHeight < 400) {
+            $(".product-image").css('display', 'none');
+        }
+        else {
+            $(".product-image").css('display', 'block');
+        }
     }
 
 })();

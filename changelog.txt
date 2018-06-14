@@ -95,3 +95,10 @@ Added descriptions for each service (commercial and enterprise)
 Added icons to descriptions for each service
 Linked services to respective pages (some pages not complete)
 Added enterprise.html 
+
+commit 18
+---------
+Fixed resizing issues on residential (and enterprise)
+Bolded current link on navbar
+Added items to navbar
+Took residential template and uniquely applied it to enterprise
