@@ -5,11 +5,7 @@
     --ekho_gray: rgb(56, 56, 58);
 }
 
-.arrow-down {
-    max-width: 95px;
-}
-
-.arrow-down:hover {
+.arrow-wrapper i:hover {
     cursor: pointer;
 }
 
@@ -18,6 +14,7 @@
     position: absolute;
     left: 0;
     bottom: 2vh;
+    color: var(--ekho_gray);    
 }
 
 .button {
@@ -111,11 +108,10 @@
     float: right;
     padding: 5%;
     margin-right: 10%;
-    font-size: 2.5em;
+    font-size: 1.75em;
 }
 
-.service-item img {
-    width: 25%;
+.service-item i {
     margin-left: 12%;
 }
 

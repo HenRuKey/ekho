@@ -102,3 +102,9 @@ Fixed resizing issues on residential (and enterprise)
 Bolded current link on navbar
 Added items to navbar
 Took residential template and uniquely applied it to enterprise
+
+commit 19
+---------
+Removed all svg files from img folder
+Linked icons to Font Awesome website
+Landing page optimization
